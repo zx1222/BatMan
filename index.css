@@ -1,0 +1,381 @@
+body {
+    background: #373737;
+}
+
+.face {
+    width: 200px;
+    height: 220px;
+    border-radius: 0px 0px 33px 33px;
+    background: #212121;
+    margin-top: 132px;
+    margin-left: 60px;
+    border: 10px solid #221715;
+    position: relative;
+    z-index: 2;
+}
+
+.face .facecicle1 {
+    width: 180px;
+    height: 180px;
+    background: #2b2b2b;
+    border-radius: 110px 120px 125px 120px;
+    margin: 12px 0 0 20px;
+}
+
+.face .circle1 {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    position: absolute;
+    top: 30px;
+    left: 85px;
+    background: #414141;
+}
+
+.face .circle2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    position: absolute;
+    top: 90px;
+    left: 135px;
+    background: #414141;
+}
+
+.ear {
+    width: 32px;
+    height: 33px;
+    border-radius: 33px 30px 0 0;
+    border: 10px solid #221715;
+    border-bottom: none;
+    background: #212121;
+}
+
+.earleft {
+    margin-top: -43px;
+    margin-left: -10px;
+}
+
+.earright {
+    margin-top: -43px;
+    margin-left: 158px;
+}
+
+.eye {
+    width: inherit;
+    height: 40px;
+    margin-top: 100px;
+    position: absolute;
+    top: 20px;
+}
+
+.eye .eye1 {
+    width: 50%;
+    height: auto;
+    float: left;
+    transform: rotate(20deg);
+}
+
+.eye .eye2 {
+    width: 50%;
+    height: auto;
+    float: left;
+    transform: rotate(-20deg);
+}
+
+.eye .eyeline {
+    width: 65px;
+    height: 10px;
+    background: #221715;
+    border-radius: 5px;
+    float: left
+}
+
+.eye .eyeline.eyelineleft {
+    margin-left: 15px;
+}
+
+.eye .eyeline.eyelineright {
+    float: right;
+    margin-right: 15px;
+}
+
+.eye .eyeball {
+    width: 30px;
+    height: 15px;
+    border-radius: 0 0 30px 30px;
+    border: 10px solid #221715;
+    background: #fff;
+    overflow: hidden;
+    border-top: none;
+    background: -webkit-linear-gradient(top, #221715 1px, #fff 1px);
+}
+
+.eye .eyeball.eyeballleft {
+    margin-left: 21px;
+}
+
+.eye .eyeball.eyeballright {
+    margin-left: 30px;
+}
+
+.eye .eyeball .ball {
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    margin-left: 13px;
+    background: #221715;
+}
+
+.eye .eyeball .eyebg1 {
+    background: grey;
+}
+
+.eye .eyeball .eyebg2 {
+    background: grey;
+}
+
+.face .lowerface {
+    width: 100%;
+    height: 40px;
+    background: #efb786;
+    position: absolute;
+    top: 170px;
+    border-top: 10px solid #221715;
+    border-radius: 0 0 33px 33px;
+}
+
+.face .lowerface .mouth {
+    width: 80px;
+    height: 7px;
+    background: #221715;
+    margin: 12px auto;
+}
+
+.face .lowerface .mouth:before {
+    width: 20px;
+    height: 7px;
+    transform: rotate(-29deg);
+    background: #221715;
+    border-radius: 7px 0 0 7px;
+    content: "";
+    position: absolute;
+    margin-left: -17px;
+    margin-top: 4px;
+}
+
+.face .lowerface .mouth:after {
+    width: 20px;
+    height: 7px;
+    transform: rotate(29deg);
+    background: #221715;
+    border-radius: 0 7px 7px 0;
+    content: "";
+    position: absolute;
+    margin-left: 77px;
+    margin-top: 4px;
+}
+
+.fist1 {
+    width: 85px;
+    height: 85px;
+    border-radius: 85px;
+    border: 10px solid #221715;
+    margin: -40px 0 0 -50px;
+    position: relative;
+    z-index: 3;
+    background: #212121;
+    float: left;
+    display: inline-block;
+}
+
+.fist1:before {
+    content: '';
+    width: 60px;
+    height: 60px;
+    background: #323232;
+    position: absolute;
+    margin: 10px 0 0 25px;
+    border-radius: 60px;
+}
+
+.fist1:after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #484848;
+    position: absolute;
+    margin: 20px 0 0 50px;
+    border-radius: 60px;
+}
+
+.fist2 {
+    width: 85px;
+    height: 85px;
+    border-radius: 85px;
+    border: 10px solid #221715;
+    margin: -105px 0 0 145px;
+    position: relative;
+    z-index: 3;
+    background: #212121;
+    float: left
+}
+
+.fist2:before {
+    content: '';
+    width: 60px;
+    height: 60px;
+    background: #323232;
+    position: absolute;
+    margin: 10px 0 0 25px;
+    border-radius: 60px;
+}
+
+.fist2:after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #484848;
+    position: absolute;
+    margin: 20px 0 0 50px;
+    border-radius: 60px;
+}
+
+.body {
+    width: 200px;
+    height: 100px;
+    border: 10px solid #221715;
+    border-radius: 0 0 33px 33px;
+    margin-left: 60px;
+    background: #212121;
+    border-top: none;
+}
+
+.torso {
+    width: 120px;
+    height: 130px;
+    border: 10px solid #221715;
+    border-radius: 0 0 40px 40px;
+    margin-left: 30px;
+    border-top: none;
+    background: #323232;
+    position: relative;
+}
+
+.torso .torso-inside {
+    width: 90px;
+    height: 125px;
+    margin: 5px 0 0 20px;
+    border-radius: 0 0 40px 40px;
+    background: #484848;
+}
+
+.belt {
+    position: absolute;
+    top: 65px;
+}
+
+.belt1 {
+    width: 0.4em;
+    height: 1.33em;
+    border: 5px solid #221715;
+    border-radius: 6px;
+    background: #b6b08c;
+    float: left;
+}
+
+.belt2 {
+    width: 1em;
+    height: 1.33em;
+    border: 5px solid #221715;
+    border-radius: 15px;
+    background: #b6b08c;
+    float: left;
+    margin-top: 2px;
+}
+
+.belt .belt2-1 {
+    width: 11px;
+    height: 4px;
+    border-radius: 4px;
+    background: #6e6544;
+    margin: 3px 2px;
+    position: relative;
+}
+
+.belt .belt2-1:before {
+    content: '';
+    position: absolute;
+    width: 11px;
+    height: 4px;
+    border-radius: 4px;
+    background: #6e6544;
+    margin-top: 5px;
+}
+
+.belt .belt2-1:after {
+    content: '';
+    position: absolute;
+    width: 11px;
+    height: 4px;
+    border-radius: 4px;
+    background: #6e6544;
+    margin-top: 10px;
+}
+
+.belt3 {
+    width: 2em;
+    height: 1.33em;
+    border: 5px solid #221715;
+    border-radius: 20px;
+    background: #b6b08c;
+    float: left;
+    margin-top: 3px;
+}
+
+.belt .belt3-1 {
+    width: 22px;
+    height: 4px;
+    border-radius: 4px;
+    background: #6e6544;
+    margin: 3px 4px;
+}
+
+.belt .belt3-1:before {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 4px;
+    border-radius: 4px;
+    background: #6e6544;
+    margin-top: 5px;
+}
+
+.belt .belt3-1:after {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 4px;
+    border-radius: 4px;
+    background: #6e6544;
+    margin-top: 10px;
+}
+
+.beltline1 {
+    width: 50px;
+    height: 7px;
+    background: #221715;
+    border-radius: 0 7px 7px 0;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.beltline2 {
+    width: 50px;
+    height: 7px;
+    background: #221715;
+    border-radius: 7px 0 0 7px;
+    margin-bottom: 5px;
+    float: left;
+    margin-left: 20px;
+}
